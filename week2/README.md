@@ -1,1 +1,1 @@
-# week 2 session
+hello world python
