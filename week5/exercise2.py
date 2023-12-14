@@ -1,9 +1,11 @@
+from abc import ABC, abstractmethod
 class Shape:
     def __init__(self, color):
        self._color=color
     
     def get_color(self):
         return self._color
+    @abstractmethod
     def area(self):
         pass
 
